@@ -1,0 +1,46 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    background-color: royalblue;
+}
+
+.navbar-ul{
+    display: flex;
+    margin:0;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+li a:hover{
+    background-color: salmon;
+    color: black;
+}
